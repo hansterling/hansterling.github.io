@@ -1,2 +1,1 @@
-# hansterling.github.io
-The website for Hannah Dawn Studios.
+<!-- GitHub Pages should use index.html -->
