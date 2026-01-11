@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Hannah Dawn Music Studio</title>
-
-  <style>
+<style>
     body {
       font-family: Georgia, serif;
       background-color: #faf7f2;
@@ -53,26 +47,3 @@
       background-color: #5a4040;
     }
   </style>
-</head>
-
-<body>
-  <div class="container">
-    <h1>🎵 Hannah Dawn Music Studio</h1>
-
-    <p>
-      Private music lessons for students of all ages, taught with warmth,
-      creativity, and a strong foundation in musical understanding.
-    </p>
-
-    <h2>Lessons Offered</h2>
-    <ul>
-      <li>Piano</li>
-      <li>Voice</li>
-      <li>Guitar</li>
-      <li>Ukulele</li>
-    </ul>
-
-    <a class="cta" href="contact.html">Get in Touch</a>
-  </div>
-</body>
-</html>
