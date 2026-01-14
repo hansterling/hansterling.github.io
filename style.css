@@ -14,7 +14,7 @@ h1, h2, h3 {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
 h1 {
@@ -88,8 +88,4 @@ ul {
 
 .nav-links a:hover {
   text-decoration: underline;
-}
-
-.navbar {
-  background-color: red !important;
 }
