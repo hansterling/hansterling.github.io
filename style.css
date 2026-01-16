@@ -1,10 +1,17 @@
 body {
   font-family: 'Comfortaa', sans-serif;
-  background-color: #faf7f2;
-  color: #333;
+  background: linear-gradient(
+    135deg,
+    #ffa5ff 0%,
+    #d1b3ff 50%,
+    #8298ff 100%
+  );
+  color: #3a3a3a;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
+
 
 h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
@@ -15,6 +22,9 @@ h1, h2, h3 {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
@@ -50,8 +60,9 @@ ul {
 
 /* Navigation Bar */
 .navbar {
-  background-color: #faf7f2;
-  border-bottom: 1px solid #e0ddd8;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
 }
 
 .nav-container {
