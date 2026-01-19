@@ -134,3 +134,15 @@ ul {
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
+
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
