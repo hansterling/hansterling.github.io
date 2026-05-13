@@ -1,4 +1,6 @@
 COLORS
   Background Ombre:
-    Pink: #ffa5ff
-    Blue: #8298ff
+    💗 #ffa5ff (pink)
+    💜 #d1b3ff (lavender)
+    💙 #8298ff (periwinkle)
+    🖤 soft dark text contrast
