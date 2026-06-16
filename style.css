@@ -31,7 +31,7 @@ h1, h2, h3 {
   max-width: 800px;
   margin: 40px auto;
   padding: 40px 20px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #fbeeff;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
@@ -58,7 +58,7 @@ ul {
   padding: 15px 25px;
   display: inline-block;
   background-color: #6b4f4f;
-  color: white;
+  color: #fbeeff;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -75,10 +75,48 @@ ul {
   margin: 0 auto 20px;
 }
 
+/* ===== ABOUT PAGE ===== */
+
+.about-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-row img {
+  width: 40%;
+  max-width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-row p {
+  flex: 1;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .about-row,
+  .about-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-row img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
 /* ===== NAVBAR ===== */
 .navbar {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fbeeff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(6px);
 }
